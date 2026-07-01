@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rag-qa-bot-backend
+    runtime: docker
+    rootDir: backend
+    plan: free
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+
+  - type: web
+    name: rag-qa-bot-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false
