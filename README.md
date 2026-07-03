@@ -1,5 +1,7 @@
 \# Archive — RAG Q\&A Bot
 
+## Demo Video
+[Watch Demo](https://drive.google.com/file/d/1eMYVzjbskW1gavRAaSNceSXkKsz_5WjU/view?usp=sharing)
 
 
 Upload your documents (PDF, TXT, DOCX, MD) and ask questions about them.
